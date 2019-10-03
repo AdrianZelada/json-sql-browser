@@ -1,5 +1,5 @@
 
-const sql = new window.Builder();
+const sql = new window.JsonSql();
 console.log(sql);
 
 var query = sql.build({
